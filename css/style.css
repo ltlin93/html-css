@@ -1,0 +1,492 @@
+.wrap {
+    margin: 0 auto;
+    width: 98%;
+    font-family: 微軟正黑體;
+}
+
+#bar {
+    background-color: #f6f6f6;
+    height: 21.33px;
+
+}
+
+#bar ul {
+    float: right;
+
+}
+
+#bar ul li {
+    margin: 5px;
+    display: inline;
+
+
+}
+
+#bar li a {
+    text-decoration: none;
+    font-size: 16px;
+
+}
+
+#bar li img {
+    margin-right: 5px;
+
+}
+
+#bar li span {
+
+    vertical-align: middle;
+}
+
+#bar li span:hover {
+    font-weight: 700;
+}
+
+
+
+.facebook {
+
+    border-right: 2px solid #cccccc;
+    padding-right: 8px;
+
+}
+
+.facebook span {
+    color: #4460a0;
+}
+
+
+.twitter span {
+    color: #00aaec;
+}
+
+#banner .logo h1 a {
+    width: 171px;
+    height: 36px;
+    background: url(../images/logo-banner.png) no-repeat;
+    display: block;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#bg {
+    height: 347px;
+    background: url(../images/banner.png) no-repeat #222222 right bottom;
+
+    position: relative;
+}
+
+
+.bg-title {
+    position: absolute;
+    top: 125px;
+    z-index: 1;
+}
+
+
+.bg-title h2 {
+
+    font-size: 36pt;
+    font-weight: bold;
+    color: white;
+    padding-left: 30px;
+    padding-bottom: 10px;
+
+}
+
+.bg-shadow {
+
+    background-color: #000;
+    opacity: 0.3;
+    height: 180px;
+    position: relative;
+    top: 90px;
+}
+
+#product {
+    width: auto;
+
+    margin: 30px auto;
+}
+
+#product ul {
+    float: left;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+
+#product ul li {
+    float: left;
+    display: inline;
+
+}
+
+
+#product ul .product-box {
+
+    width: 29.5%;
+    height: 460px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-right: 5px;
+    padding-left: 10px;
+    border: 1px solid #f1f1f1;
+    box-shadow: 3px 3px 5px #dbdbdb;
+
+}
+
+#product ul .product-box ul li::before {
+
+    content: "·";
+    color: #000;
+    font-size: 50px;
+    line-height: 20px;
+    padding-right: 3px;
+    vertical-align: top;
+
+
+}
+
+#product ul #product-img {
+
+    height: 200px;
+    text-align: center;
+
+}
+
+#product ul .product-box img {
+
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+
+}
+
+body>div>div#product>ul>li:nth-child(2)>div>img {
+    margin-top: 50px;
+
+}
+
+
+#product ul .product-box h2 {
+    font-size: 18pt;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#product ul .product-box p {
+    text-align: left;
+    font-size: 15pt;
+    line-height: 20pt;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#product ul .product-box p span {
+    letter-spacing: 5px;
+}
+
+#product ul .product-box ul {
+    padding-left: 30px;
+    list-style-type: circle;
+    list-style-type: disc;
+}
+
+#product ul .product-box ul li {
+    text-align: left;
+    font-size: 15pt;
+    line-height: 20pt;
+}
+
+#different {
+    margin-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+}
+
+#different h2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 24pt;
+}
+
+.table-different td {
+    padding: 10px;
+    width: 1000px;
+    margin-bottom: 20px;
+}
+
+.table-different th,
+.table-different td {
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 15pt;
+}
+
+.table-different th {
+    padding: 10px;
+    background-color: #f7f7f7;
+    color: black;
+    width: 25%;
+}
+
+.text-green {
+    color: #58ba9c;
+}
+
+#contact {
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin-top: 60px;
+    background: linear-gradient(#00644b, #009872);
+}
+
+#contact h2 {
+    line-height: 35pt;
+    font-size: 24pt;
+    text-align: center;
+    color: white;
+}
+
+#contact #contact-content {
+
+    height: 280px;
+}
+
+#contact .contact-left {
+    width: 50%;
+    margin-top: 30px;
+    float: left;
+
+}
+
+#contact .contact-left textarea {
+    width: 95%;
+    height: 220px;
+    border-radius: 5px;
+}
+
+#contact .contact-right {
+    width: 50%;
+    margin-top: 30px;
+    float: right;
+}
+
+.contact-right label {
+    display: block;
+    color: white;
+    font-size: 15pt;
+    margin-bottom: 5px;
+}
+
+.contact-right input {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.contact-right .btn-submit {
+    margin-top: 10px;
+    right: 0px;
+    width: 100px;
+    background-color: #00cc99;
+    color: white;
+    font-size: 15pt;
+    border: 0px;
+    padding: 5px;
+    border-radius: 5px;
+    float: right;
+}
+
+.contact-right .btn-submit:hover {
+    color: gray;
+}
+
+#footer {
+    margin-top: 30px;
+    margin-bottom: 60px;
+    padding-bottom: 60px;
+
+}
+
+#footer .logo {
+    float: left;
+}
+
+#footer .logo h2 a {
+    width: 171px;
+    height: 36px;
+    background: url(../images/logo-footer.png) no-repeat;
+    display: block;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#footer ul {
+
+    float: right;
+    line-height: 30px;
+    font-size: 15pt;
+}
+
+#footer ul li {
+    margin-bottom: 5px;
+}
+
+#footer ul li span {
+    color: red;
+    margin-left: 10px;
+}
+
+.clearfix:after{
+
+ content:'';
+ display:table;
+ clear:both;
+}
+
+
+@media screen and (min-width: 600px) and (max-width:1023px) {
+
+    #product ul {
+        padding-left: 0px;
+
+    }
+
+    #product ul .product-box {
+        width: 43.5%;
+    }
+
+
+}
+
+
+@media screen and (min-width: 385px) {
+
+    #banner {
+
+        padding: 5px 0 0 0;
+
+    }
+
+    #banner .logo {
+        float: left;
+
+    }
+
+
+    #banner .banner-right {
+        float: right;
+    }
+
+    #banner .banner-right ul {
+
+        float: left;
+
+    }
+
+    #banner .banner-right ul li {
+        float: left;
+        display: inline;
+        padding-left: 10px;
+        line-height: 38px;
+    }
+
+    #banner .banner-right ul li a {
+        color: #00cc99;
+        font-weight: bold;
+        text-decoration: none;
+        display: block;
+        border-bottom: 3px solid transparent;
+    }
+
+    #banner ul li a:hover {
+        border-bottom-color: #00cc99;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    #bg-title h2 {
+        font-size: 26px;
+    }
+}
+
+
+@media screen and (max-width: 599px) {
+
+    #product ul {
+        padding-left: 0px;
+    }
+
+    #product ul .product-box {
+        width: 96%;
+        margin-left: 0px;
+    }
+
+
+    #footer .logo {
+
+        display: block;
+        margin-bottom: 20px;
+        float: unset;
+    }
+
+    #footer ul {
+        float: left;
+    }
+
+}
+
+
+
+@media screen and (max-width: 384px) {
+
+    #banner .banner-right {
+        padding: 10px 0;
+
+    }
+
+    #banner .banner-right ul li {
+
+        padding: 10px 0;
+        text-align: center;
+        background-color: #00cc99;
+        margin: 2px 0;
+        padding: 10px;
+        box-shadow: 3px 5px #888888;
+    }
+
+
+    #banner .banner-right ul li:hover {
+
+        background-color: #009963;
+
+    }
+
+
+    #banner .banner-right ul li a {
+
+        font-size: 20px;
+        text-decoration: none;
+        color: #FFF;
+        font-weight: 700;
+    }
+
+    #banner .banner-right ul li a:hover {
+        color: #FFF;
+
+    }
+}
+
