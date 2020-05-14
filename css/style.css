@@ -163,7 +163,7 @@
 
 }
 
-body>div>div#product>ul>li:nth-child(2)>div>img {
+#product ul li:nth-child(2) img {
     margin-top: 50px;
 
 }
