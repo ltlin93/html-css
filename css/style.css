@@ -424,9 +424,17 @@
 
 
 @media screen and (max-width: 600px) {
-    #bg-title h2 {
-        font-size: 26px;
+
+   #bg .bg-title {
+    
+    padding: 10px 0;
+
+       }
+
+    #bg .bg-title h2 {
+        font-size: 28px;
     }
+
 }
 
 
